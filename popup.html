@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Picker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 200px;
+      padding: 10px;
+    }
+    #color-picker {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    #color-value {
+      font-size: 14px;
+    }
+    #copy-message {
+      display: none;
+      margin-top: 10px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <input type="color" id="color-picker">
+  <div id="color-value">Selected Color: #ffffff</div>
+  <div id="copy-message"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
